@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <title>To do List</title>
+
+    <link rel="shortcut icon" href="lower-left-crayon_1f58d.png">
+
+</head>
+<body>
+    <header>
+        <h1>
+            To do List
+        </h1>
+    </header>
+        <h2> 
+            Boas Vindas ao seu organizador de tarefas!
+        </h2>
+
+        <p> 
+            Digite a tarefa que você precisa realizar  e adicione à lista. 
+            <br>
+            Após a criação das tarefas, você pode concluí-las selecionando a caixa a esquerda, <br>
+            ou excluí-las no botão a direita. 
+        </p>
+
+        <input type="text" placeholder="Escreva aqui a tarefa" id="tarefa"> 
+        <button id= "botaoaddtarefa" onclick="adicionarTarefa()">ADICIONAR</button>
+        
+        <ul id="lista">
+        </ul>
+
+
+        <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

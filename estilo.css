@@ -1,0 +1,73 @@
+body {
+    background-color: #2d3436;
+    font-family: "montserrat";
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #ff7675
+}
+
+h2{
+    font-size: 25px;   
+}
+
+p{
+    font-size: 18px;  
+}
+
+li{
+    list-style:none;
+    border: 2px dotted #ff7675;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+
+}
+#tarefa{
+    color: black;
+    border: 2px solid #ff7675;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    height: 35px;
+    width: 400px;
+}
+
+#botaoaddtarefa{
+    color: white;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #ff7675;
+    padding: 10px 40px;
+    overflow: hidden;
+    background-color: #2d3436;
+}
+
+.checkbox{
+    border: 10px solid #ff7675;
+    width: 15px;
+    height: 20px;
+    background-color: black;
+    margin-right: 50px;
+}
+
+.checkbox:checked ~ .label {
+    text-decoration: line-through;
+}
+
+.botaoexcluir{
+    color: red;
+    font-size: 14px;
+    font-family: "montserrat";
+    text-decoration: none;
+    border: 1px solid red;
+    background-color: #2d3436;
+    margin-left:50px;
+    
+}
